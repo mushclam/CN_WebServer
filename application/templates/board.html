@@ -1,0 +1,7 @@
+<!doctype html>
+<title>{% block title %}{% endblock %}Notice Board</title>
+{% for item in board_list %}
+    <p><a href="{{ url_for('article') }}{{ item['id'] }}">
+        {{ item['id'] }} {{ item['type'] }} {{ item['title'] }} {{ item['author'] }} {{ item['time'] }}
+    </p>
+{% endfor %}
