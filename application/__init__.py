@@ -62,4 +62,4 @@ with app.test_request_context():
 app.secret_key = 'AOZr98j/3yX R~XHH!jmN]LWX/,?RT'
 
 if __name__ == '__main__':
-    app.run(host='172.17.86.60')
+    app.run(host='')

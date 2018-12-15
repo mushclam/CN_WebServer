@@ -1,7 +1,7 @@
 import requests, json
 from flask import current_app, g
 
-url = 'http://192.168.0.16:5000'
+url = 'http://172.17.86.60:6000'
 
 def connection(request):
     target = url + request
